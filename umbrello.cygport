@@ -1,8 +1,10 @@
 inherit kf5
 
 NAME="umbrello"
-VERSION=17.08.3
+VERSION=17.12.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="KDE UML modeler"
 DESCRIPTION="Part of the KDE developer tools suite"
+
+DIFF_EXCLUDES="index-kf5.docbook"
